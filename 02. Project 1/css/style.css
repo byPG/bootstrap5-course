@@ -13,6 +13,17 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
+    position: relative; /*potrzebne dla Bootsrtapa5 do ScrollSpy*/
+}
+
+[id]{  /*fixed scroll to section for mobile; */
+    scroll-margin-top: 220px; /*height by nav*/
+}
+
+@media (min-width: 992px){
+    [id]{  /*fixed scroll to section for desktop; */
+        scroll-margin-top: 69px; /*height by nav*/
+    }
 }
 
 .hero-shadow{
@@ -99,3 +110,13 @@ body{
 
 }
 /*main section*/
+
+.contact h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact .submit-btn{
+    font-size: 1.6rem;
+}
