@@ -18,7 +18,6 @@ html{
 body{
     font-family: --(basicFont);
     font-size: 1.6rem;
-    height: 500vh;
 }
 
 .hero-shadow{
@@ -80,3 +79,41 @@ header{
     }
 }
 /* header, slider */
+
+/*boxes section*/
+.home-boxes{
+    padding: 5em 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+/*boxes section*/
+
+/*passion section*/
+.home-passion{
+    position: relative;
+    height: 350px;
+    background-image: url('../img/home-passion.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+/*passion section*/
+
+/*brand section*/
+.home-brand h3{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+/*brand section*/
+
+/* footer */
+footer{
+    font-size: 1.6rem;
+}
+/* footer */
