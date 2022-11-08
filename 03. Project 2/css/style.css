@@ -117,13 +117,14 @@ footer{
     font-size: 1.6rem;
 }
 /* footer */
-/* about us */
 
+/* about us */
 .aboutus-hero{
     background-image: url('../img/aboutUs/hd-wallpaper-gd499c819e_1920.jpg');
     background-position: bottom;
 }
 /* about us */
+
 /* about us info*/
 .aboutus-info .container{
     padding: 2em 0.5em;
@@ -171,6 +172,25 @@ footer{
     
 }
 /* about us info, desktop*/
+
+/*about us cards*/
+.aboutus-card-icon{
+    font-size: 3rem;
+}
+
+.aboutus-card-txt h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+
+
+/*about us cards*/
+
+
+
+
 
 /* header, slider desktop*/
 @media (min-width: 1400px){
