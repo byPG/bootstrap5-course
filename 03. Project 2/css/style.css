@@ -185,16 +185,41 @@ footer{
 /*about us cards*/
 
 /* services */
-.services-hero{
+.service-hero{
     background-image: url('../img/services/usługi.jpg');
-    background-position: ;
+    background-position: 0 75%;
 
 }
+
+.service-hero-bo{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+.service-hero-bo p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   text-transform: uppercase;
+   color: #fff;
+}
+.service-hero-bo.box-one{
+    background-image: url(../img/services/engine.jpg);
+}
+.service-hero-bo.box-two{
+    background-image: url(../img/services/visual.jpg);
+}
+.service-hero-bo.box-three{
+    background-image: url(../img/services/car-audio.jpg);
+}
+.service-hero-bo.box-four{
+    background-image: url(../img/services/allinone.jpg);
+}
+
+
 /* services */
-
-
-
-
 
 /* header, slider desktop*/
 @media (min-width: 1400px){
