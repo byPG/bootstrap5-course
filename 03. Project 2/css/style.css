@@ -182,11 +182,15 @@ footer{
     font-size: 2.2rem;
     font-weight: bold;
 }
-
-
-
-
 /*about us cards*/
+
+/* services */
+.services-hero{
+    background-image: url('../img/services/usługi.jpg');
+    background-position: ;
+
+}
+/* services */
 
 
 
@@ -208,4 +212,4 @@ footer{
         background-image: url(../img/main-carousel-3-hq.jpg);
     }
 }
-/* header, slider */
+/* header, slider desktop */
