@@ -128,3 +128,24 @@ body {
 .stat p{
    font-size: 1.6rem;
 }
+
+.dropdown-item{
+    font-size: 1.4rem;
+}
+
+.main-table .btn{
+    font-size: 1.6rem;
+}
+
+.table{
+    font-size: 1.4rem;
+}
+
+.page-link{
+    padding: 0.5em 1em;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: #fff;
+
+}
+
