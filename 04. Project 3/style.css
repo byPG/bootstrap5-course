@@ -146,6 +146,49 @@ body {
     font-size: 1.4rem;
     background-color: transparent;
     color: #fff;
-
 }
 
+
+aside h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.logo .logo-text{
+    font-size: 3.4rem;
+    text-shadow: 0 0 5px white;
+}
+
+.logo p{
+    font-size: 1.6rem;
+}
+
+.users-online, .users-sex{
+    font-size: 4rem;
+}
+
+.users-sex p{
+    font-size: 2.2rem;
+}
+
+.users-sex .fa-male{
+    text-shadow: 0 0 10px #09ff00;
+}
+
+.users-sex .fa-female{
+    text-shadow: 0 0 10px #006eff;
+}
+
+.stats-post .form-select, .stats-post option{
+    font-size: 1.6rem;
+}
+
+.stats-post .info{
+    font-size: 1.8rem;
+}
+
+.stats-post .number{
+    font-size: 1.4rem;
+}
