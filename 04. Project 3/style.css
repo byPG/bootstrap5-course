@@ -45,6 +45,12 @@ body {
     background-image: linear-gradient(180deg, rgba(55, 64, 76, 1) 0%, rgba(21, 26, 32, 1) 100%);
 }
 
+.info-top h1{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .date-box{
     height: 160px;
     display: flex;
@@ -190,5 +196,22 @@ aside h3{
 }
 
 .stats-post .number{
+    font-size: 1.4rem;
+}
+
+.posts h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.featured-post .btn{
+    font-size: 1.6rem;
+}
+
+.featured-post .card-title{
+    font-size: 1.8rem;
+}
+
+.featured-post .card-body{
     font-size: 1.4rem;
 }
