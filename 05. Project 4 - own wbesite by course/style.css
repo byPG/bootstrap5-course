@@ -1,0 +1,92 @@
+/* font-family: 'Lato', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --generalFont: 'Lato', sans-serif;
+    --btnColor: #3159d3;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+/* header section - hero and nav */
+.img-top{
+    background-image: url(img/main/hero-desktop-1920.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70rem;
+}
+
+.nav-main{
+    background-color: rgb(30, 37, 68);
+}
+.navbar-nav a{
+    color: rgba(255, 255, 255, .6);
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: var(--generalFont);
+}
+.navbar-nav a:hover{
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffff;
+}
+
+/* main section */
+.img-smartphone {
+    height: 25rem;
+}
+
+.about-company h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: var(--generalFont);
+    margin-bottom: 20px;
+}
+
+.about-company p {
+    font-size: 2.0rem;
+    font-family: var(--generalFont);
+}
+
+.about-company .txt {
+    font-size: 1.8rem;
+    font-family: var(--generalFont);
+}
+
+.about-company .btn {
+    font-size: 1.8rem;
+    background-color: var(--btnColor);
+    padding: 5px 25px;
+}
+
+.about-company .btn:hover {
+   background-color: #3f62c9;
+}
+
+/* carousel section */
+
+.main-slider .carousel-item{
+    height: 600px;
+}
+
+
+/* hero for mobile */
+@media (max-width: 768px) {
+    .img-top{
+        background-image: url(img/main/hero-mobile-640.jpg);
+    }
+}
